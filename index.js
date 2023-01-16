@@ -1,10 +1,10 @@
 const keepAlive = require('./server');
-const resetthing = require('./reset/code.js');
+// const resetthing = require('./reset/code.js');
 const Monitor = require('ping-monitor');
 
 keepAlive();
 const monitor = new Monitor({
-    website: 'https://dumbasscounter.genarunchisacoa.repl.co/',
+    website: 'https://ntrj2q-3000.preview.csb.app/',
     title: 'dumbass counter',
     interval: 2
 });
