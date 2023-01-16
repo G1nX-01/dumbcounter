@@ -1,5 +1,5 @@
 const keepAlive = require('./server');
-const resetthing = require('./reset/code.js');
+// const resetthing = require('./reset/code.js');
 const Monitor = require('ping-monitor');
 
 keepAlive();
