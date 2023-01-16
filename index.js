@@ -18,11 +18,14 @@ const express = require('express');
 var dumbass = 0
 const app = express();
 var altdumbass = ""
-app.get('/', (req, res) => {
+app.get('/count', (req, res) => {
   dumbass++
   altdumbass = dumbass.toString()
   res.send(altdumbass)
   console.log(dumbass)
+});
+app.get('/', (req, res) => {
+  res.send("hi")
 });
 app.get('/reset', (req, res) => {
   reset()
